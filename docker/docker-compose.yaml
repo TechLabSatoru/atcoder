@@ -1,0 +1,12 @@
+---
+
+version: '3'
+
+services:
+  gcc:
+    image: gcc:12
+    container_name: 'gcc'
+    working_dir: '/home/TechLabSatoru'
+    tty: true
+    volumes:
+      - "../:/home/TechLabSatoru/"
