@@ -2,7 +2,7 @@
 
 - AtCoderで使用するリポジトリです.
 
-- []()で参加しています.
+- [TechLabSatoru](https://atcoder.jp/users/TechLabSatoru)で参加しています.
 
 ## 環境構築（c++）
 
