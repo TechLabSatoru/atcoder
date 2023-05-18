@@ -19,6 +19,8 @@ $ docker compose exec -it gcc bash
 # g++ -o <バイナリファイル名> <ファイル名>
 # ./<バイナリファイル名>
 
+# go run <ファイル名>
+
 # dockerコンテナを削除します.
 $ docker compose down --rmi all --volumes --remove-orphans
 ```
