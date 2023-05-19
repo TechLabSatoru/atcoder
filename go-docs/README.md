@@ -16,6 +16,8 @@ $ tree
 
     - `go mod init`とは、
 
+    - このコマンドは必要ではなさそうです.
+
 ```shell
 $ go mod init abc301
 go: creating new go.mod: module abc301
@@ -48,6 +50,8 @@ ok      abc301  0.002s
 - 上記からテストにおけるカバレッジ率は`88.2%`なので、`100%`を目指すために修正を行うことにする.
 
     - カバレッジの詳細情報をファイルで出力します.
+
+    - 出力されたファイルの結果からテストケースを追加します.
 
 ```shell
 $ go test -coverprofile=a_cover.out

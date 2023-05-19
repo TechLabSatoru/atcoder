@@ -16,6 +16,7 @@ func TestOverallWinner(t *testing.T) {
 		{ n: 5, s: "TTAAT", result: "T"},
 		{ n: 6, s: "ATTATA", result: "T"},
 		{ n: 1, s: "A", result: "A"},
+		{ n: 6, s: "ATTAAT", result: "A"},
 	}
 
 	for _, testcase := range testcases {
