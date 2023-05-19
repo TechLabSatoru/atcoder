@@ -1,7 +1,9 @@
 package main
 
 import (
-	"abc301"
+	"fmt"
+
+	"301/abc301"
 )
 
 func main() {
@@ -10,5 +12,5 @@ func main() {
 
 	fmt.Scan(&N, &S)
 
-	fmt.Println(OverallWinner(N, S))
+	fmt.Println(abc301.OverallWinner(N, S))
 }

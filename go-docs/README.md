@@ -12,7 +12,9 @@ $ tree
 `-- main.go
 ```
 
-- `abc301`ディレクトリ配下で`go mod init`コマンドを実行してプロジェクトの初期化を行う.
+- `abc301`ディレクトリ配下で`go mod init <project name>`コマンドを実行してプロジェクトの初期化を行う.
+
+    - 今回は`go mod init 301`を実行して下さい.
 
     - `go mod init`とは、
 
