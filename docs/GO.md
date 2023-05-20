@@ -59,3 +59,15 @@ ok      abc301  0.002s
 $ go test -coverprofile=a_cover.out
 $ go tool cover -html=a_cover.out -o a_cover.html
 ```
+
+- テスト関数単位でテストを実行する場合
+
+```shell
+$ go test -run TestFillTheGaps
+```
+
+- ファイル（プログラム）単位でテストを実行する場合
+
+```shell
+$ go test b_test.go
+```
