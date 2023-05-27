@@ -71,3 +71,32 @@ $ go test -run TestFillTheGaps
 ```shell
 $ go test b_test.go
 ```
+
+## Goにおけるテスト方法
+
+- Formatterの適用
+
+```shell
+$ go fmt
+```
+
+- Linterの適用
+
+```shell
+$ go vet
+```
+
+- テストの実行
+
+    - 下記でカバレッジが100%でなく、カバレッジが100%でない理由が不明な場合は原因調査を実施する.
+
+```shell
+$ go test -v --cover
+```
+
+- カバレッジ調査
+
+```shell
+$ go test -coverprofile=tmp/a_cover.out
+$ go tool cover -html=tmp/a_cover.out -o tmp/a_cover.html
+```
