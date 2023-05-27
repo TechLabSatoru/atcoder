@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-type TestCase struct {
+type TestCaseA struct {
 	a      int
 	b      int
 	result int
@@ -12,7 +12,7 @@ type TestCase struct {
 
 func TestAttack(t *testing.T) {
 
-	testcases := []TestCase{
+	testcases := []TestCaseA{
 		{a: 7, b: 3, result: 3},
 		{a: 123456789123456789, b: 987654321, result: 124999999},
 		{a: 999999999999999998, b: 2, result: 499999999999999999},
